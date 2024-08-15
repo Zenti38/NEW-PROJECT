@@ -40,6 +40,9 @@ font-weight: 400;
 .header-ul-li-a1,.header-ul-li-a8{
     color: white;
 }
+.header-ul-li-img{
+    margin-left: 168px;
+}
 .header{    
     display: flex;
     background-color: #012D63;
@@ -79,7 +82,7 @@ font-weight: 400;
 
 .conteiner{
     
-    width: 1140px;
+    width: 1440px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
@@ -93,12 +96,12 @@ font-weight: 400;
     background-image: url(./Group\ 37\ \(1\)\ 1\ \(1\).png);
 }
 .section-one-img{
-    margin-left: 170px;
+    margin-left: 120px;
 }
 
 .section-one-button{
-    margin-left: 164px;
-        font-family: "Roboto";
+    margin-left: 114px;
+    font-family: "Roboto";
     font-weight: 400;
     width: 254px;
     height: 67px;
@@ -110,34 +113,73 @@ font-weight: 400;
 
 }
 .section-one-h21{
-    margin-left: 195px;
+    margin-left: 145px;
     font-size: 48px;
     color: #FFFFFF;
 }
 .section-one-h1{
-    margin-left: 156px;
+    margin-left: 106px;
     color: #FFFFFF;
     font-size: 144px;
     margin-top: 8px;
 }
 .section-one-h2{
-    margin-left: 164px;
+    margin-left: 114px;
     margin-top: 8px;
     font-size: 72px;
     color: #FFFFFF;
 }
 .section-one-p{
     font-size: 18px;
-    margin-left: 164px;
+    margin-left: 114px;
     color: #FFFFFF;
 }
+.neznaju{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .section-two{
     
     background-size: cover;
     display: flex;
     background-image: url(./Group\ 8\ 1\ \(1\).png);
-    height: 606px;
+    height: 396px;
     background-repeat: no-repeat;
 }
 .section-two-ul-li-h2{
@@ -145,21 +187,19 @@ font-weight: 400;
     color: #FFFFFF;
 }
 .section-two-ul{
-    display: flex;
-    padding: 145px;
-    margin-left: 215px;
-    margin-top: 130px;
+      display: flex;
 }
-.section-two-ul{
-    border: 5px solid #8E32C6;
-    
 
+.section-two-ul{
+    margin-left: 105px;
+    border: 5px solid #8E32C6;
 }
 .section-two-ul-li-img{
     margin-left: 95px;
     margin-right: 95px;
 }
 .section-two-ul-li1{
+
     margin-right: 50px;
     margin-left: 50px;
     height: 346px;
@@ -172,13 +212,14 @@ font-weight: 400;
 }
 
 .section-three{
+    height: 606px;
+    
     padding-top: 25px;
     padding-bottom: 115px;
-    
     display: flex;
     background-size:cover;
     background-repeat: no-repeat;
-    background-image: url(./цветы\ 2\ 1\ \(1\).png);
+    
     background-image: url(./Group\ 6\ 1\ \(1\).png);
 }
 .section-three-ul-h2,.section-two-ul-li-h21{
@@ -192,13 +233,20 @@ font-weight: 400;
 }
 .section-three-ul-li-p{
     margin: 0;
-        /* Sneakers are very comfortable and well painted, nothing has worn off in a year. */
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
     color: #FFFFFF;
+}
+.section-three-ul-li2{
+   margin-right: 93px;
+   margin-left: 93px;
+}
+.section-three-ul-li-img{
+    width: 31px;
+    height: 56px;
 }
 .section-three-h2{
     justify-content: center;
