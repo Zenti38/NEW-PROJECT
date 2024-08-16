@@ -175,52 +175,60 @@ font-weight: 400;
 
 
 .section-two{
-    
+    padding-bottom: 105px;
+    padding-top: 105px;
+    justify-content: center;
     background-size: cover;
     display: flex;
     background-image: url(./Group\ 8\ 1\ \(1\).png);
-    height: 396px;
     background-repeat: no-repeat;
 }
 .section-two-ul-li-h2{
+    padding-left: 93px;
+    padding-right: 93px;
     font-size: 36px;
     color: #FFFFFF;
 }
-.section-two-ul{
-      display: flex;
+.section-two-ul-li{
+    padding-left: 35px;
+    padding-right: 35px;
 }
-
 .section-two-ul{
-    margin-left: 105px;
+     display: flex;
     border: 5px solid #8E32C6;
 }
+.section-two-ul-li-img1{
+    display: block;
+    margin: 0 auto;
+}
+
 .section-two-ul-li-img{
+    display: block;
+    margin: 0 auto;
     margin-left: 95px;
     margin-right: 95px;
 }
 .section-two-ul-li1{
-
-    margin-right: 50px;
-    margin-left: 50px;
-    height: 346px;
     border-right: 1px solid #FFFFFF;
     border-left:  1px solid #FFFFFF;
 }
 .section-two-ul-li-h21{
     margin-right: 50px;
     margin-left: 50px;
+    text-align: center;
 }
 
 .section-three{
     height: 606px;
-    
     padding-top: 25px;
     padding-bottom: 115px;
     display: flex;
     background-size:cover;
     background-repeat: no-repeat;
-    
-    background-image: url(./Group\ 6\ 1\ \(1\).png);
+    background-image: url(./Group\ 6\ 1\ \(1\).png), url(./цветы\ 2\ 1\ \(1\).png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: left;
 }
 .section-three-ul-h2,.section-two-ul-li-h21{
     font-size: 48px;
