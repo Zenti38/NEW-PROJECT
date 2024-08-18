@@ -1,0 +1,21 @@
+.section-one-button:hover{
+    cursor: pointer;
+    color: #C7C7C7;
+}
+.section-four-ul-form-button:hover{
+    cursor: pointer;
+    color: #C7C7C7;
+}
+.footer-div-div-ul2-li-a:hover{
+    color: blue;
+}
+.a:hover{
+    font-family: "Roboto";
+    font-weight: 300;
+    color: #C7C7C7;
+}
+.b:hover{
+    font-weight: 400;
+    font-family: "Roboto";
+    color: #FFFFFF;
+}
