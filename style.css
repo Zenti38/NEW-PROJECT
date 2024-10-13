@@ -568,13 +568,19 @@ color: #FFFFFF;
 
 
 
+.body-textarea{
+    resize: none;
+    height: 120px;
+    width: 400px;
+}
 
-
-
-
-
-
-
+.button-close{
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+.no-scroll{
+    overflow: hidden;
+}
 .backdrop{
     opacity: 1;
     position: fixed;
@@ -585,16 +591,70 @@ color: #FFFFFF;
     background-color: rgba(0,0, 0,0.5);
 }
 .modal{
-    
-    width: 500px;
-    height: 500px;
+    overflow: scroll;
+    width: 528px;
+    height: 581px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50% , -50%); 
      background-color: rgb(255, 255, 255);
 }
-.backdrop,.is-hidden{
+.backdrop.is-hidden{
     opacity: 0;
     pointer-events: none;
+}
+.svg{
+    top: 15px;
+    left: 53.5px;
+    position: absolute;
+    width: 12px;
+    height: 15px;
+}
+.divchyk-1{
+
+    position: relative;
+}
+.input{
+    margin-left: 40px;
+    width: 448px;
+    height: 40px;
+    padding-left: 30px;
+}
+.body-textarea{
+    width: 448px;
+    height: 138px;
+    margin-left: 40px;
+    margin-top: 28px;
+}
+.body-h1{
+    font-size: 20px;
+    margin-left: 40px;
+}
+.body-p1{
+    margin-left: 40px;
+}
+.body-p3{
+    margin-top: 10px;
+    margin-bottom: 4px;
+    margin-left: 40px;
+}
+.body-p2{
+    margin-top: 25px;
+    margin-left: 8.38px;
+}
+.checkbox{
+    margin-top: 25px;
+    margin-left: 52px;
+}
+.form-button1{
+    border: 0px;
+    background-color: #2196F3;
+    color: #FFFFFF;
+    width: 200px;
+    height: 50px;
+    border-radius: 4px;
+    margin-left: 164px;
+    margin-bottom: 40px;
+    margin-top: 30px;
 }
